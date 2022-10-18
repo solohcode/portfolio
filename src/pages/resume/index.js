@@ -1,7 +1,9 @@
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { meta, resume } from "../../content_option";
+import { meta } from "../../content_option";
+import resume from '../../assets/resume/resume.pdf'
+
 
 export const Resume = () => {
   return (

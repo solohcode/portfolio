@@ -1,6 +1,4 @@
 import your_img_url from './assets/images/coder.webp'
-import resume from './assets/resume/resume.pdf'
-
 
 // portfolios 
 import bejamas from './assets/portfolios/bejamas.jpg'
@@ -307,7 +305,6 @@ export {
     skills,
     technologies,
     services,
-    resume,
     introdata,
     contactConfig,
     socialprofils,
