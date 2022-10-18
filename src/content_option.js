@@ -6,6 +6,7 @@ import cubevest from './assets/portfolios/cubevest.jpg'
 import dokto from './assets/portfolios/dokto.jpg'
 import estatePlus from './assets/portfolios/estate-plus.jpg'
 import flexipay from './assets/portfolios/flexipay.jpg'
+import flexipayVendor from './assets/portfolios/flexipay-vendor.jpg'
 import kairoRebrand from './assets/portfolios/kairo-rebrand.jpg'
 import kairo from './assets/portfolios/kairo.jpg'
 import merritech from './assets/portfolios/merritech.jpg'
@@ -16,6 +17,8 @@ import solohfood from './assets/portfolios/solohfood.jpg'
 import waya from './assets/portfolios/waya.jpg'
 import zeroAdmin from './assets/portfolios/zero-admin.jpg'
 import zero from './assets/portfolios/zero.jpg'
+import eduright from './assets/portfolios/eduright.jpg'
+import maggy from './assets/portfolios/maggy.jpg'
 import karateFocus from './assets/portfolios/karate-focus.png'
 
 
@@ -223,6 +226,11 @@ const dataportfolio = [
         link: "https://forum.dokto.com/",
     },
     {
+        img: flexipayVendor,
+        desctiption: "Flexipay Vendor",
+        link: "https://vendor.flexipay.ng/",
+    },
+    {
         img: flexipay,
         desctiption: "Flexipay e-commerce",
         link: "https://flexipay.ng/",
@@ -231,6 +239,11 @@ const dataportfolio = [
         img: cubevest,
         desctiption: "Cubevest fintech solution",
         link: "https://cubevest.com/",
+    },
+    {
+        img: eduright,
+        desctiption: "Eduright e-learning",
+        link: "https://eduright.surge.sh/",
     },
     {
         img: zero,
@@ -248,14 +261,19 @@ const dataportfolio = [
         link: "https://merritech.netlify.app/",
     },
     {
-        img: kairo,
-        desctiption: "Kairo mini e-commerce",
-        link: "https://kairomarket.netlify.app/",
+        img: maggy,
+        desctiption: "Maggy Template",
+        link: "https://maggy.surge.sh/",
     },
     {
         img: kairoRebrand,
         desctiption: "Kairo rebrand",
         link: "https://kairo-market.netlify.app/",
+    },
+    {
+        img: kairo,
+        desctiption: "Kairo mini e-commerce",
+        link: "https://kairomarket.netlify.app/",
     },
     {
         img: bejamas,
