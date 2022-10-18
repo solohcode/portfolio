@@ -7,6 +7,7 @@ import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { Resume } from "../pages/resume";
 
 const AnimatedSwitch = withRouter(({ location }) => (
   <TransitionGroup>
@@ -24,6 +25,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={ContactUs} />
+        <Route path="/resume" component={Resume} />
         <Route path="*" component={Home} />
       </Switch>
     </CSSTransition>

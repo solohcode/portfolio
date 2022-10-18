@@ -26,11 +26,7 @@ export const Home = () => {
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter
                     options={{
-                      strings: [
-                        introdata.animated.first,
-                        introdata.animated.second,
-                        introdata.animated.third,
-                      ],
+                      strings: introdata.animated,
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 10,

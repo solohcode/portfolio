@@ -1,6 +1,5 @@
 {
-    "homepage": "http://ubaimutl.github.io/react-portfolio",
-    "name": "react-portfolio",
+    "name": "solohcode",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -29,7 +28,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "yarn build && cp build/index.html build/404.html",
-        "deploy": "gh-pages -d build"
+        "deploy": "npm run build && mv build/index.html build/200.html && surge build solohcode.surge.sh"
     },
     "eslintConfig": {
         "extends": [
