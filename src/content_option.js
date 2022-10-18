@@ -1,5 +1,26 @@
 import your_img_url from './assets/images/coder.webp'
 import resume from './assets/resume/resume.pdf'
+
+
+// portfolios 
+import bejamas from './assets/portfolios/bejamas.jpg'
+import cubevest from './assets/portfolios/cubevest.jpg'
+import dokto from './assets/portfolios/dokto.jpg'
+import estatePlus from './assets/portfolios/estate-plus.jpg'
+import flexipay from './assets/portfolios/flexipay.jpg'
+import kairoRebrand from './assets/portfolios/kairo-rebrand.jpg'
+import kairo from './assets/portfolios/kairo.jpg'
+import merritech from './assets/portfolios/merritech.jpg'
+import nikkysCreation from './assets/portfolios/nikkys-creation.jpg'
+import paysmosmo from './assets/portfolios/paysmosmo.jpg'
+import paysmosmoAdmin from './assets/portfolios/paysmosmo-admin.jpg'
+import solohfood from './assets/portfolios/solohfood.jpg'
+import waya from './assets/portfolios/waya.jpg'
+import zeroAdmin from './assets/portfolios/zero-admin.jpg'
+import zero from './assets/portfolios/zero.jpg'
+import karateFocus from './assets/portfolios/karate-focus.png'
+
+
 const logotext = "solohCode";
 const meta = {
     title: "solohCode",
@@ -179,9 +200,84 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        img: waya,
+        desctiption: "WayaLinks",
         link: "https://www.wayalinks.com/",
+    },
+    {
+        img: paysmosmo,
+        desctiption: "Paysmosmo e-commerce",
+        link: "https://www.paysmosmo.com/",
+    },
+    {
+        img: paysmosmoAdmin,
+        desctiption: "Paysmosmo admin",
+        link: "https://admin.paysmosmo.com/",
+    },
+    {
+        img: estatePlus,
+        desctiption: "EstatePlus solution",
+        link: "https://estateplusng.com/",
+    },
+    {
+        img: dokto,
+        desctiption: "Dokto Telemedicine",
+        link: "https://forum.dokto.com/",
+    },
+    {
+        img: flexipay,
+        desctiption: "Flexipay e-commerce",
+        link: "https://flexipay.ng/",
+    },
+    {
+        img: cubevest,
+        desctiption: "Cubevest fintech solution",
+        link: "https://cubevest.com/",
+    },
+    {
+        img: zero,
+        desctiption: "ZIMC fintech solution",
+        link: "https://zimcserver.com/",
+    },
+    {
+        img: zeroAdmin,
+        desctiption: "ZIMC admin",
+        link: "https://admin.zimcserver.com/",
+    },
+    {
+        img: merritech,
+        desctiption: "Merritech Template",
+        link: "https://merritech.netlify.app/",
+    },
+    {
+        img: kairo,
+        desctiption: "Kairo mini e-commerce",
+        link: "https://kairomarket.netlify.app/",
+    },
+    {
+        img: kairoRebrand,
+        desctiption: "Kairo rebrand",
+        link: "https://kairo-market.netlify.app/",
+    },
+    {
+        img: bejamas,
+        desctiption: "Bejamas mini e-commerce",
+        link: "https://bejamas-task.netlify.app/",
+    },
+    {
+        img: karateFocus,
+        desctiption: "Karate Focus template",
+        link: "https://karate-focus.netlify.app/",
+    },
+    {
+        img: nikkysCreation,
+        desctiption: "Nikky's Creation website",
+        link: "https://nikkycreations.netlify.app/",
+    },
+    {
+        img: solohfood,
+        desctiption: "Solohfood template",
+        link: "https://solohfood.netlify.app/",
     },
 ];
 
