@@ -189,9 +189,9 @@ const contactConfig = {
     YOUR_EMAIL: "solohcode@gmail.com",
     YOUR_FONE: "(234)70-1709-5720",
     description: meta.description,
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_ztau2rr",
+    YOUR_TEMPLATE_ID: "template_d52ibyu",
+    YOUR_USER_ID: "TPMmblefbt-JR-BRX",
 };
 
 const socialprofils = {
