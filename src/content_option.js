@@ -20,6 +20,7 @@ import zero from './assets/portfolios/zero.jpg'
 import eduright from './assets/portfolios/eduright.jpg'
 import maggy from './assets/portfolios/maggy.jpg'
 import karateFocus from './assets/portfolios/karate-focus.png'
+import sectionBookie from './assets/portfolios/section-bookie.jpg'
 
 
 const logotext = "solohCode";
@@ -289,6 +290,11 @@ const dataportfolio = [
         img: nikkysCreation,
         desctiption: "Nikky's Creation website",
         link: "https://nikkycreations.netlify.app/",
+    },
+    {
+        img: sectionBookie,
+        desctiption: "Section Bookie template",
+        link: "https://section-bookie.surge.sh/",
     },
     {
         img: solohfood,
