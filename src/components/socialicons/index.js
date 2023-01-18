@@ -10,12 +10,20 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
+import { SiFiverr } from 'react-icons/si'
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
+        {socialprofils.fiverr && (
+          <li>
+            <a target="_blank" rel="noreferrer" href={socialprofils.fiverr}>
+              <SiFiverr />
+            </a>
+          </li>
+        )}
         {socialprofils.twitter && (
           <li>
             <a target="_blank" rel="noreferrer" href={socialprofils.twitter}>
