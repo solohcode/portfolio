@@ -214,6 +214,10 @@ const services = [
         description: "As a professional, I practice project management in terms of laying out goals and workflows for each project I work on to ensure proper time and resource management and accuracy. I do this to avoid disappointing my clients.",
     },
     {
+        title: "Coaching & Mentorship",
+        description: "Coaching and mentoring involves providing guidance and support to individuals and teams in developing their technical skills and knowledge. This can include training on specific technologies and tools, offering advice on best practices and processes, and helping individuals identify areas for improvement and growth.",
+    },
+    {
         title: "Freelancing",
         description: "I occasionally work for myself, taking on assignments from various clients and sources on a variety of platforms."
     }
