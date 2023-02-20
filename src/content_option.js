@@ -307,7 +307,7 @@ const dataportfolio = [
     {
         img: karateFocus,
         desctiption: "Karate Focus template",
-        link: "https://karate-focus.netlify.app/",
+        link: "https://karate-focus.000webhostapp.com/",
     },
     {
         img: nikkysCreation,
