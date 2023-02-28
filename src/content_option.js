@@ -21,6 +21,7 @@ import eduright from './assets/portfolios/eduright.jpg'
 import maggy from './assets/portfolios/maggy.jpg'
 import karateFocus from './assets/portfolios/karate-focus.png'
 import sectionBookie from './assets/portfolios/section-bookie.jpg'
+import famillie from './assets/portfolios/famillie.jpg'
 
 
 const logotext = "solohCode";
@@ -318,6 +319,11 @@ const dataportfolio = [
         img: sectionBookie,
         desctiption: "Section Bookie template",
         link: "https://section-bookie.surge.sh/",
+    },
+    {
+        img: famillie,
+        desctiption: "Famillie app template",
+        link: "https://famillie.surge.sh/",
     },
     {
         img: solohfood,
