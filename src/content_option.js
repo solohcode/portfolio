@@ -27,13 +27,13 @@ import famillie from './assets/portfolios/famillie.jpg'
 const logotext = "solohCode";
 const meta = {
     title: "solohCode",
-    description: "I'm Solomon Ayodele, a full-stack (FE strong) developer and software engineer based in Lagos, Nigeria.",
+    description: "I'm Solomon Ayodele, a full-stack (FE strong) experienced software engineer based in Lagos, Nigeria.",
 };
 
 const introdata = {
     title: "Hi, I’m Solomon Ayodele",
     animated: [
-        "I love tech",
+        "I love tech related topics",
         "I code functional web apps",
         "I design and develop responsive web apps",
         "I love problem solving",
@@ -41,19 +41,23 @@ const introdata = {
         "I am a propagandist for growth",
         "I adore mind and body development"
     ],
-    description: "A software engineer who uses secure and dependable technology to create and develop mobile apps, online software, and functioning and responsive web apps (as required or requested).",
+    description: "An experienced software engineer, using highly secure, dependable and acceptable technologies to create and develop mobile apps, online software, and functioning and responsive web apps ( as required or requested ).",
     your_img_url,
 };
 
 const dataabout = {
     title: "Summary of myself",
     aboutme: <div>
-        <p>I'm Solomon Ayodele, a qualified software engineer from Lagos, Nigeria, who goes by the online alias 'solohcode.' I have been developing programs for at least six years, have built, managed, and deployed responsive, fully functional web apps for at least five years, and have worked as a professional software engineer for at least four years for up to four distinct firms.</p>
-        <br/>
-        <p>I am a technology geek who enjoys discussing everything tech-related, and so far, problem-solving has been my best topic. a confident proponent of evolution, a propagandist for individual and social growth, a student with high learning interest, and a physical and technical deep thinker.</p>
-        <br/>
-        <p>I will proudly refer to myself as an individual who is very much devoted to his trade because throughout the years I have been able to master various important physiological and technical qualities. a strong communicator, vivacious team player, and growth-conscious team lead, I have had remarkable project management and team leading experiences throughout my career in the sector. My passions are more concerned with problem-solving, mind and body growth, travel, and global discovery than my hobbies, which include things like computing, cuisine, listening to music, playing video games, and leisure sports.</p>
-    </div>
+                <p>I'm Solomon Ayodele, an experienced software engineer from Lagos, Nigeria, I go by the online alias "solohcode". I have been writing programs for more than six years, have built, managed, and deployed responsive, fully functional web apps for more than four years, and have worked as a professional software engineer for over four years for up to four distinct firms.</p>
+                <br/>
+                <p>Over the years, I have developed experience in the use of major technologies the likes of JAVASCRIPT, and TYPESCRIPT. libraries like REACTJS, NEXTJS, and VUEJS. state management tools like REDUX and RECOIL. CSS libraries like TAILWIND, BOOTSTRAP, and SCSS. UI/UX design tools like WIREFRAME and FIGMA. project management tools like GIT and GitHub. Task management programs like CLICKUP, ASANA, TRELLO, and other frontend-related libraries are just a few examples. I've also worked with backend programs like FIREBASE, PHP, and MySQL, and still eager to explore more around the tech world.</p>
+                <br/>
+                <p>I am a technology geek who enjoys discussing everything tech-related, and so far, problem-solving has been my best topic. a confident proponent of technical evolution, a propagandist for individual and social growth, a student with high learning interest, and a physical and technical deep thinker.</p>
+                <br/>
+                <p>I will proudly refer to myself as an individual who is very much devoted to his trade because throughout the years I have been able to master various important physiological and technical qualities. a strong communicator, vivacious team player, and growth-conscious team lead, I have had remarkable project management and team-leading experiences throughout my career in the sector.</p>
+                <br/>
+                <p>My passions are more concerned with problem-solving, mind and body growth, travel, and global discovery than my hobbies, which include things like computing, cuisine, listening to music, playing video games, and leisure sports.</p>
+            </div>
 };
 const worktimeline = [
     {
