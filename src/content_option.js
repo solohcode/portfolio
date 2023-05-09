@@ -48,7 +48,7 @@ const introdata = {
 const dataabout = {
     title: "Summary of myself",
     aboutme: <div>
-                <p>I'm Solomon Ayodele, an experienced software engineer from Lagos, Nigeria, I go by the online alias "solohcode". I have been writing programs for more than six years, have built, managed, and deployed responsive, fully functional web apps for more than four years, and have worked as a professional software engineer for over four years for up to four distinct firms.</p>
+                <p>I'm Solomon Ayodele, an experienced software engineer from Lagos, Nigeria. I go by the online alias "solohcode". I have been writing programs for more than six years now, I have been able to build, deploy, and maintain responsive, fully functional web apps for more than five years, and I have worked as a professional software engineer for over four years for up to four distinct firms.</p>
                 <br/>
                 <p>Over the years, I have developed experience in the use of major technologies the likes of JAVASCRIPT, and TYPESCRIPT. libraries like REACTJS, NEXTJS, and VUEJS. state management tools like REDUX and RECOIL. CSS libraries like TAILWIND, BOOTSTRAP, and SCSS. UI/UX design tools like WIREFRAME and FIGMA. project management tools like GIT and GitHub. Task management programs like CLICKUP, ASANA, TRELLO, and other frontend-related libraries are just a few examples. I've also worked with backend programs like FIREBASE, PHP, and MySQL, and still eager to explore more around the tech world.</p>
                 <br/>

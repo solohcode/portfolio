@@ -5,33 +5,25 @@ import { meta } from "../../content_option";
 import resume from '../../assets/resume/resume.pdf'
 
 
-export const Resume = () => {
+export const Certification = () => {
   return (
     <HelmetProvider>
-      <Container className="Resume-header">
+      <Container className="Certificate-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Resume | {meta.title} </title>{" "}
+          <title> Certificates | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4"> Resume </h1>{" "}
+            <h1 className="display-4 mb-4"> Certifications </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <div className="w-100" style={{width: "100%"}}>
           <iframe
             title="solohCode resume"
-            src={resume}
-            // "https://soloh-code.netlify.app/resources/Resume-Solomon-Ayodele.pdf" || 
-            style={{width: "100%", height: "100vh"}}
-          />
-          <embed
-            title="solohCode resume"
-            about="solohcode resume"
-            src={resume}
-            // "https://soloh-code.netlify.app/resources/Resume-Solomon-Ayodele.pdf" || 
+            src={"https://soloh-code.netlify.app/resources/Resume-Solomon-Ayodele.pdf" || resume}
             style={{width: "100%", height: "100vh"}}
           />
         </div>
