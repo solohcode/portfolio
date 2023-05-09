@@ -23,6 +23,11 @@ export const Resume = () => {
         <div className="w-100" style={{width: "100%"}}>
           <iframe
             title="solohCode resume"
+            src={"https://soloh-code.netlify.app/resources/Resume-Solomon-Ayodele.pdf" || resume}
+            style={{width: "100%", height: "100vh"}}
+          />
+          <iframe
+            title="solohCode resume"
             src={resume}
             // "https://soloh-code.netlify.app/resources/Resume-Solomon-Ayodele.pdf" || 
             style={{width: "100%", height: "100vh"}}
