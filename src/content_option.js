@@ -23,6 +23,10 @@ import karateFocus from './assets/portfolios/karate-focus.png'
 import sectionBookie from './assets/portfolios/section-bookie.jpg'
 import famillie from './assets/portfolios/famillie.jpg'
 
+// certificates 
+import jobberman from './assets/certificates/jobberman.jpg'
+import devtown from './assets/certificates/devtown.jpg'
+
 
 const logotext = "solohCode";
 const meta = {
@@ -336,6 +340,30 @@ const dataportfolio = [
     },
 ];
 
+const certificates = [
+    {
+        img: "",
+        year: "2019",
+        src: "",
+        title: "TJV Foundation",
+        description: "TJV Foundation completion",
+    },
+    {
+        img: jobberman,
+        year: "2021",
+        src: "https://soloh-code.netlify.app/resources/certificate/jobberman.pdf",
+        title: "JobberMan Soft Skill",
+        description: "JobberMan soft skill acquisition",
+    },
+    {
+        img: devtown,
+        year: "2023",
+        src: "https://soloh-code.netlify.app/resources/certificate/devtown.pdf",
+        title: "DevTown Appreciation",
+        description: "DevTown certificate of appreciation",
+    },
+]
+
 const contactConfig = {
     YOUR_EMAIL: "solohcode@gmail.com",
     YOUR_FONE: "(234)-701-709-5720",
@@ -359,6 +387,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    certificates,
     worktimeline,
     skills,
     technologies,

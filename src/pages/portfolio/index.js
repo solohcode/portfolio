@@ -23,7 +23,7 @@ export const Portfolio = () => {
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
-                <img src={data.img} alt="" />
+                <img src={data.img} alt="" className="img-fluid" />
                 <div className="content">
                   <p>{data.desctiption}</p>
                   <a target="_blank" rel="noreferrer" href={data.link}>view project</a>
