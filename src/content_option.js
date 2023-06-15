@@ -4,6 +4,8 @@ import your_img_url from './assets/images/coder.webp'
 import bejamas from './assets/portfolios/bejamas.jpg'
 import cubevest from './assets/portfolios/cubevest.jpg'
 import dokto from './assets/portfolios/dokto.jpg'
+import iturah from './assets/portfolios/iturah.jpg'
+import doktoHmc from './assets/portfolios/dokto-hmc.jpg'
 import estatePlus from './assets/portfolios/estate-plus.jpg'
 import flexipay from './assets/portfolios/flexipay.jpg'
 import flexipayVendor from './assets/portfolios/flexipay-vendor.jpg'
@@ -22,6 +24,7 @@ import maggy from './assets/portfolios/maggy.jpg'
 import karateFocus from './assets/portfolios/karate-focus.png'
 import sectionBookie from './assets/portfolios/section-bookie.jpg'
 import famillie from './assets/portfolios/famillie.jpg'
+import lendsqr from './assets/portfolios/lendsqr.jpg'
 
 // certificates 
 import jobberman from './assets/certificates/jobberman.jpg'
@@ -234,11 +237,6 @@ const services = [
 
 const dataportfolio = [
     {
-        img: waya,
-        desctiption: "WayaLinks",
-        link: "https://www.wayalinks.com/",
-    },
-    {
         img: paysmosmo,
         desctiption: "Paysmosmo e-commerce",
         link: "https://www.paysmosmo.com/",
@@ -254,9 +252,24 @@ const dataportfolio = [
         link: "https://estateplusng.com/",
     },
     {
+        img: waya,
+        desctiption: "WayaLinks",
+        link: "https://www.wayalinks.com/",
+    },
+    {
         img: dokto,
-        desctiption: "Dokto Telemedicine",
+        desctiption: "Dokto (scrambled)",
         link: "https://dokto.com/",
+    },
+    {
+        img: iturah,
+        desctiption: "Iturah (coming soon)",
+        link: "https://iturah.health/",
+    },
+    {
+        img: doktoHmc,
+        desctiption: "Dokto Homecare (coming soon)",
+        link: "https://salmon-tree-07692fa10.1.azurestaticapps.net/",
     },
     {
         img: flexipayVendor,
@@ -299,19 +312,24 @@ const dataportfolio = [
         link: "https://maggy.surge.sh/",
     },
     {
-        img: kairoRebrand,
-        desctiption: "Kairo rebrand",
-        link: "https://kairo-market.netlify.app/",
-    },
-    {
         img: kairo,
         desctiption: "Kairo mini e-commerce",
         link: "https://kairomarket.netlify.app/",
     },
     {
+        img: kairoRebrand,
+        desctiption: "Kairo rebrand",
+        link: "https://kairo-market.netlify.app/",
+    },
+    {
         img: bejamas,
-        desctiption: "Bejamas mini e-commerce",
+        desctiption: "Bejamas task",
         link: "https://bejamas-task.netlify.app/",
+    },
+    {
+        img: lendsqr,
+        desctiption: "Lendsqr task",
+        link: "https://solomon-ayodele-ojo-lendsqr-fe-test.vercel.app/",
     },
     {
         img: karateFocus,
