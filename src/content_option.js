@@ -25,6 +25,19 @@ import karateFocus from './assets/portfolios/karate-focus.png'
 import sectionBookie from './assets/portfolios/section-bookie.jpg'
 import famillie from './assets/portfolios/famillie.jpg'
 import lendsqr from './assets/portfolios/lendsqr.jpg'
+import paysmosmoCrm from './assets/portfolios/paysmosmo-crm.png'
+import gmc from './assets/portfolios/gmc.png'
+import techend from './assets/portfolios/techend.png'
+import greenharborAdmin from './assets/portfolios/greenhabor-admin.png'
+import mardigrasAdmin from './assets/portfolios/mardi-gras-admin.png'
+import bitbenderAdmin from './assets/portfolios/bitbender.png'
+import ibidnpickAdmin from './assets/portfolios/ibidnpick-admin.png'
+import ibidnpick from './assets/portfolios/ibidnpick.png'
+import teeka4Admin from './assets/portfolios/teeka4-admin.png'
+import nurovantSchool from './assets/portfolios/nurovant-school.png'
+import nurovant from './assets/portfolios/nurovant.png'
+import zygomedAdmin from './assets/portfolios/zygomed-admin.png'
+import zygomed from './assets/portfolios/zygomed.png'
 
 // certificates 
 import jobberman from './assets/certificates/jobberman.jpg'
@@ -69,8 +82,8 @@ const dataabout = {
 const worktimeline = [
     {
         jobtitle: "Frontend Engineer",
-        where: "ViralTribe Limited",
-        date: "2022",
+        where: "Nurovant AI",
+        date: "2023",
     },
     {
         jobtitle: "Frontend Engineer",
@@ -84,7 +97,7 @@ const worktimeline = [
     },
     {
         jobtitle: "Frontend Developer",
-        where: "Techend inc",
+        where: "Techend Inc",
         date: "2020",
     },
     {
@@ -237,6 +250,71 @@ const services = [
 
 const dataportfolio = [
     {
+        img: zygomed,
+        desctiption: "Zygomed Shop",
+        link: "https://www.shop.zygomedltd.com/",
+    },
+    {
+        img: zygomedAdmin,
+        desctiption: "Zygomed Admin",
+        link: "https://www.admin.zygomedltd.com/",
+    },
+    {
+        img: nurovant,
+        desctiption: "Nurovant AI",
+        link: "https://app.nurovant.com/auth",
+    },
+    {
+        img: nurovantSchool,
+        desctiption: "Nurovant AI School",
+        link: "https://school.nurovant.com/auth",
+    },
+    {
+        img: teeka4Admin,
+        desctiption: "Teeka4 Admin",
+        link: "http://194.163.188.47/",
+    },
+    {
+        img: ibidnpick,
+        desctiption: "IbidNPick",
+        link: "https://ibidnpick.surge.sh/",
+    },
+    {
+        img: ibidnpickAdmin,
+        desctiption: "IbidNPick Admin",
+        link: "https://ibidnpick-admin.surge.sh/",
+    },
+    {
+        img: mardigrasAdmin,
+        desctiption: "Mardi Gras Admin",
+        link: "https://mardi-gras-admin.surge.sh/",
+    },
+    {
+        img: bitbenderAdmin,
+        desctiption: "BitBender Admin",
+        link: "https://bitbender-admin.surge.sh/",
+    },
+    {
+        img: greenharborAdmin,
+        desctiption: "Green Harbor Admin",
+        link: "https://green-harbor-admin.surge.sh/",
+    },
+    {
+        img: techend,
+        desctiption: "Techend Website",
+        link: "https://techend.com.ng/",
+    },
+    {
+        img: gmc,
+        desctiption: "GrittyMindsConcept Website",
+        link: "https://grittymindsconcepts.com/",
+    },
+    {
+        img: paysmosmoCrm,
+        desctiption: "Paysmosmo CRM",
+        link: "https://paysmosmo-crm.surge.sh/",
+    },
+    {
         img: paysmosmo,
         desctiption: "Paysmosmo e-commerce",
         link: "https://www.paysmosmo.com/",
@@ -312,16 +390,6 @@ const dataportfolio = [
         link: "https://maggy.surge.sh/",
     },
     {
-        img: kairo,
-        desctiption: "Kairo mini e-commerce",
-        link: "https://kairomarket.netlify.app/",
-    },
-    {
-        img: kairoRebrand,
-        desctiption: "Kairo rebrand",
-        link: "https://kairo-market.netlify.app/",
-    },
-    {
         img: bejamas,
         desctiption: "Bejamas task",
         link: "https://bejamas-task.netlify.app/",
@@ -332,16 +400,6 @@ const dataportfolio = [
         link: "https://solomon-ayodele-ojo-lendsqr-fe-test.vercel.app/",
     },
     {
-        img: karateFocus,
-        desctiption: "Karate Focus template",
-        link: "https://karate-focus.000webhostapp.com/",
-    },
-    {
-        img: nikkysCreation,
-        desctiption: "Nikky's Creation website",
-        link: "https://nikkycreations.netlify.app/",
-    },
-    {
         img: sectionBookie,
         desctiption: "Section Bookie template",
         link: "https://section-bookie.surge.sh/",
@@ -350,6 +408,26 @@ const dataportfolio = [
         img: famillie,
         desctiption: "Famillie app template",
         link: "https://famillie.surge.sh/",
+    },
+    {
+        img: karateFocus,
+        desctiption: "Karate Focus template",
+        link: "https://karate-focus.000webhostapp.com/",
+    },
+    {
+        img: kairoRebrand,
+        desctiption: "Kairo rebrand",
+        link: "https://kairo-market.netlify.app/",
+    },
+    {
+        img: kairo,
+        desctiption: "Kairo mini e-commerce",
+        link: "https://kairomarket.netlify.app/",
+    },
+    {
+        img: nikkysCreation,
+        desctiption: "Nikky's Creation website",
+        link: "https://nikkycreations.netlify.app/",
     },
     {
         img: solohfood,
@@ -392,7 +470,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/solomon-ayodele65",
+    github: "https://github.com/solohcode",
     facebook: "https://facebook.com/solohcode",
     linkedin: "https://linkedin.com/in/solohcode",
     twitter: "https://twitter.com/solohcode",
